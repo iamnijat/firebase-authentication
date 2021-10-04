@@ -11,6 +11,7 @@ class AuthScreen extends StatefulWidget {
 }
 
 class _AuthScreenState extends State<AuthScreen> {
+  
   final _auth = FirebaseAuth.instance;
 
   var _isLoading = false;
@@ -58,6 +59,7 @@ class _AuthScreenState extends State<AuthScreen> {
       });
     }
   }
+  
 
   @override
   Widget build(BuildContext context) {

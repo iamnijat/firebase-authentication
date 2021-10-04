@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         title: 'Auth Application',
         theme: ThemeData(
             primarySwatch: Colors.pink,
-            backgroundColor: Colors.pink,
+            backgroundColor: Colors.white,
             // ignore: deprecated_member_use
             accentColor: Colors.deepPurple,
             // ignore: deprecated_member_use
