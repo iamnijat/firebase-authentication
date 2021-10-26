@@ -16,7 +16,7 @@
 
 This project contains `google-services.json` file of my own. You can connect your own firebase project using the following configurations:
 
-> Please, follow the configrations correctly!
+> Please, follow the configurations correctly!
 
 **Step 1:** Clone the repository to your device.
 
