@@ -1,3 +1,4 @@
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/iamnijat/firebase-authentication/Flutter%20CI/master)
 ![GitHub forks](https://img.shields.io/github/forks/iamnijat/firebase-authentication)
 ![GitHub stars](https://img.shields.io/github/stars/iamnijat/firebase-authentication)
 ![GitHub watchers](https://img.shields.io/github/watchers/iamnijat/firebase-authentication)
