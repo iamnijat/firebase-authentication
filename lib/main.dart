@@ -6,6 +6,7 @@ import 'screens/overview_screen.dart';
 import 'screens/splash_screen.dart';
 import '/screens/auth_screen.dart';
 import '/screens/overview_screen.dart';
+import 'package:device_preview/device_preview.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,9 +18,12 @@ void main() async {
   ]);
   await Firebase.initializeApp();
 
-  runApp(const MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: MyApp(),
+  runApp(DevicePreview(
+    enabled: true,
+    builder: (context) => const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MyApp(),
+    ),
   ));
 }
 
