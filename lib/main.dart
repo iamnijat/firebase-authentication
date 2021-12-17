@@ -19,7 +19,7 @@ void main() async {
   await Firebase.initializeApp();
 
   runApp(DevicePreview(
-    enabled: false,
+    enabled: true,
     builder: (context) => const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyApp(),
